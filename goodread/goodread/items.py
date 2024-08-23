@@ -21,4 +21,6 @@ class GoodreadItem(scrapy.Item):
     threestars = scrapy.Field()
     twostars = scrapy.Field()
     onestar = scrapy.Field()
+    pages = scrapy.Field()
+    publish = scrapy.Field()
 

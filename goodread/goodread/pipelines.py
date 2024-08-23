@@ -41,7 +41,9 @@ class CSVDBBookPipeline:
                 item['fourstars'],
                 item['threestars'],
                 item['twostars'],
-                item['onestar']
+                item['onestar'],
+                item['pages'],
+                item['publish']
             ])
         return item
     pass
